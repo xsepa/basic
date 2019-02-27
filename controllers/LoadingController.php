@@ -36,7 +36,7 @@ class LoadingController extends Controller {
                 'rules' => [
                     [
                         'allow' => true,
-                        'actions' => ['index', 'view', 'delete', 'update', 'create'],
+                        'actions' => ['index', 'view', 'delete', 'update', 'create', 'close'],
                         'roles' => ['admin'],
                     ],
                 ],
